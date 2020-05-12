@@ -321,7 +321,7 @@ h1 {
       position: absolute;
       left: auto;
       right: 20px;
-      bottom: 0px; }
+      bottom: 0; }
   #slide_swch0:checked ~ .slide__arr-buttons :nth-child(4),
   #slide_swch0:checked ~ .slide__arr-buttons :nth-child(0) {
     top: -80px;
@@ -576,16 +576,16 @@ button {
 .card {
   height: 100%;
   width: 100%;
-  background: #FFFFFF;
-  -webkit-box-shadow: 0px 9px 18px rgba(37, 41, 49, 0.03);
-          box-shadow: 0px 9px 18px rgba(37, 41, 49, 0.03);
+  background: #fff;
+  -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
+          box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
   border-radius: 24px; }
   .card__tittle {
     font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
     font-weight: 600;
     font-size: 13px;
     line-height: 19px;
-    color: #56CCF2;
+    color: #56ccf2;
     text-transform: uppercase;
     display: inline-block;
     -webkit-box-sizing: border-box;
@@ -594,16 +594,16 @@ button {
     padding: 2px 10px;
     margin: 34px 42px 0; }
     .card__tittle--blue {
-      color: #56CCF2;
+      color: #56ccf2;
       background-color: rgba(86, 204, 242, 0.1); }
     .card__tittle--red {
-      color: #F36363;
+      color: #f36363;
       background-color: rgba(243, 99, 99, 0.1); }
     .card__tittle--green {
-      color: #15D850;
+      color: #15d850;
       background-color: rgba(21, 216, 80, 0.1); }
     .card__tittle--yellow {
-      color: #FCC91D;
+      color: #fcc91d;
       background-color: rgba(252, 201, 29, 0.1); }
   .card__text {
     font-family: "Open Sans", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
@@ -629,13 +629,13 @@ button {
     border-radius: 50%;
     margin: 32px; }
     .card__circle--blue {
-      background-color: #56CCF2; }
+      background-color: #56ccf2; }
     .card__circle--red {
-      background-color: #F36363; }
+      background-color: #f36363; }
     .card__circle--green {
-      background-color: #15D850; }
+      background-color: #15d850; }
     .card__circle--yellow {
-      background-color: #FCC91D; }
+      background-color: #fcc91d; }
   .card__c-text {
     font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
     font-weight: 600;
@@ -646,7 +646,7 @@ button {
 
 .approach {
   border-radius: 200px 0 0 200px;
-  background: #FF9C8E;
+  background: #ff9c8e;
   position: relative;
   top: -260px;
   overflow-x: hidden; }
