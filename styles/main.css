@@ -57,7 +57,14 @@ h1 {
     background-color: white;
     border-radius: 50%;
     display: none;
-    font-size: 50px; }
+    font-size: 50px;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s; }
+    .footer__arrow:hover {
+      -webkit-transform: scale(1.1);
+              transform: scale(1.1); }
   .footer__minilogo {
     display: none; }
 
@@ -206,13 +213,13 @@ h1 {
   .primaryBG {
     background: #008aff; }
     .primaryBG--modify-B-L {
-      border-radius: 0 0 0 50px; }
+      border-radius: 0 0 0 0; }
     .primaryBG--modify-B-R {
-      border-radius: 0 50px 0 0; }
+      border-radius: 0 0 0 0; }
     .primaryBG--modify-T-L {
-      border-radius: 50px 0 0 0; }
+      border-radius: 0 0 0 0; }
     .primaryBG--modify-T-R {
-      border-radius: 0 50px 0 0; } }
+      border-radius: 0 0 0 0; } }
 
 .nav {
   display: -webkit-box;
@@ -505,7 +512,11 @@ h1 {
     text-transform: uppercase;
     text-decoration: none;
     z-index: 4;
-    margin: 30px; }
+    margin: 30px;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s; }
+    .nav-mini__item:hover {
+      color: #fab4aa; }
 
 @media only screen and (min-width: 990px) {
   .nav-mini {
@@ -636,7 +647,15 @@ h1 {
   line-height: 150%;
   color: white;
   text-decoration: none;
-  margin: 0 40px 0 0; }
+  margin: 0 40px 0 0;
+  -webkit-transition: color 0.5s, -webkit-transform 0.5s;
+  transition: color 0.5s, -webkit-transform 0.5s;
+  transition: color 0.5s, transform 0.5s;
+  transition: color 0.5s, transform 0.5s, -webkit-transform 0.5s; }
+  .thread__txt:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    color: #fab4aa; }
 
 @media only screen and (max-width: 990px) {
   .footer__arrow {
@@ -781,7 +800,14 @@ button {
     width: 166px;
     border-radius: 20px;
     background: center no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    -webkit-transition: 1s -webkit-transform;
+    transition: 1s -webkit-transform;
+    transition: 1s transform;
+    transition: 1s transform, 1s -webkit-transform; }
+    .direction__img:hover {
+      -webkit-transform: scale(1.05);
+              transform: scale(1.05); }
   .direction__tittle {
     font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
     font-weight: 600;
@@ -898,9 +924,16 @@ button {
   height: 100%;
   width: 100%;
   background: #fff;
-  -webkit-box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
-          box-shadow: 0 9px 18px rgba(37, 41, 49, 0.03);
-  border-radius: 24px; }
+  border-radius: 24px;
+  -webkit-box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5);
+          box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5);
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s; }
+  .card:hover {
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03); }
   .card__tittle {
     font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
     font-weight: 600;
@@ -1144,8 +1177,18 @@ button {
         justify-content: space-around;
     margin: 40px 0; }
   .rate__c-item {
-    margin: 0 50px;
-    width: 315px; }
+    margin: 20px;
+    width: 315px;
+    border-radius: 25px;
+    -webkit-box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5);
+            box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5);
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s; }
+    .rate__c-item:hover {
+      -webkit-transform: scale(1.03);
+              transform: scale(1.03); }
 
 @media only screen and (max-width: 990px) {
   .rate__card {
