@@ -1,12 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
 @font-face {
   font-family: "Roboto";
   src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
@@ -151,12 +143,6 @@ ul {
   padding: 0;
   list-style-type: none; }
 
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 400; }
@@ -195,7 +181,7 @@ h1 {
   .desktop-navigation:first-child {
     margin-left: 120px; }
   .desktop-navigation__item {
-    font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: bold;
     font-size: 13px;
     line-height: 150%;
@@ -280,7 +266,7 @@ h1 {
     left: 144px;
     bottom: 40px; }
   .slide__intro-tittle {
-    font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: bold;
     font-size: 13px;
     line-height: 19px;
@@ -289,7 +275,7 @@ h1 {
     text-transform: uppercase;
     margin: 0; }
   .slide__intro-txt {
-    font-family: "Open Sans", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: normal;
     font-size: 14px;
     line-height: 140%;
@@ -468,7 +454,7 @@ h1 {
   -webkit-transition: 1s left;
   transition: 1s left; }
   .phone-navigation__item {
-    font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: bold;
     font-size: 22px;
     line-height: 150%;
@@ -488,7 +474,7 @@ h1 {
     visibility: hidden; } }
 
 .message__tittle {
-  font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+  font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%;
@@ -507,7 +493,7 @@ h1 {
   margin-top: 80px; }
 
 .message__content::-webkit-input-placeholder {
-  font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+  font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 22px;
@@ -515,7 +501,7 @@ h1 {
   opacity: 0.7; }
 
 .message__content::-moz-placeholder {
-  font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+  font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 22px;
@@ -523,7 +509,7 @@ h1 {
   opacity: 0.7; }
 
 .message__content:-ms-input-placeholder {
-  font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+  font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 22px;
@@ -531,7 +517,7 @@ h1 {
   opacity: 0.7; }
 
 .message__content::-ms-input-placeholder {
-  font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+  font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 22px;
@@ -539,7 +525,7 @@ h1 {
   opacity: 0.7; }
 
 .message__content::placeholder {
-  font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+  font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 22px;
@@ -547,7 +533,7 @@ h1 {
   opacity: 0.7; }
 
 .message__content {
-  font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+  font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 22px;
@@ -576,7 +562,7 @@ h1 {
           align-self: center; } }
 
 .contact__tittle {
-  font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+  font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%;
@@ -596,7 +582,7 @@ h1 {
       text-align: center; } }
 
 .thread__tittle {
-  font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+  font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
   font-weight: bold;
   font-size: 13px;
   line-height: 19px;
@@ -606,7 +592,7 @@ h1 {
   text-transform: uppercase; }
 
 .thread__txt {
-  font-family: "Open Sans", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Poppins", "Open Sans", Arial, sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 150%;
@@ -737,17 +723,19 @@ h1 {
     -webkit-transition: 1s left;
     transition: 1s left; }
   .header__poster-tittle {
-    font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: 600;
     font-size: 64px;
     line-height: 68px;
-    color: white; }
+    color: white;
+    margin: 0 0 30px; }
   .header__poster-text {
-    font-family: "Open Sans", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: normal;
     font-size: 18px;
     line-height: 150%;
-    color: white; }
+    color: white;
+    margin: 0 0 90px; }
 
 @media only screen and (max-width: 990px) {
   .header {
@@ -768,13 +756,13 @@ h1 {
       left: 0;
       top: 400px; }
     .header__poster-tittle {
-      font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+      font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
       font-weight: 600;
       font-size: 35px;
       line-height: 100%;
       color: white; }
     .header__poster-text {
-      font-family: "Open Sans", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+      font-family: "Open Sans", "Poppins", "Open Sans", Arial, sans-serif;
       font-weight: normal;
       font-size: 15px;
       line-height: 150%;
@@ -845,7 +833,7 @@ h1 {
     left: 20px; } }
 
 .button {
-  font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+  font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
   font-weight: 600;
   font-size: 15px;
   line-height: 22px;
@@ -866,7 +854,7 @@ h1 {
             transform: scale(1.05); }
 
 .tittle {
-  font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+  font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
   font-weight: 600;
   font-size: 52px;
   line-height: 150%;
@@ -885,7 +873,7 @@ h1 {
   width: 90%; }
 
 .about__tittle {
-  font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+  font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
   font-weight: 600;
   font-size: 32px;
   line-height: 150%;
@@ -895,7 +883,7 @@ h1 {
           align-items: center; }
 
 .about__text {
-  font-family: "Open Sans", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+  font-family: "Open Sans", "Poppins", "Open Sans", Arial, sans-serif;
   font-weight: 600;
   font-size: 24px;
   line-height: 150%;
@@ -905,9 +893,10 @@ h1 {
   width: 100%;
   height: 100%; }
   .direction__img {
-    margin: auto;
+    margin: 0 auto 40px;
     height: 166px;
     width: 166px;
+    border: 1px solid #00bd00;
     background: center no-repeat;
     background-size: cover;
     border-radius: 20px;
@@ -919,14 +908,15 @@ h1 {
       -webkit-transform: scale(1.05);
               transform: scale(1.05); }
   .direction__tittle {
-    font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: 600;
     font-size: 20px;
     line-height: 140%;
     color: #253757;
-    text-align: center; }
+    text-align: center;
+    margin: 0 auto 15px; }
   .direction__text {
-    font-family: "Open Sans", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: normal;
     font-size: 14px;
     line-height: 150%;
@@ -957,7 +947,8 @@ h1 {
     padding: 64px 0 140px; }
   .expertise__item {
     max-width: 265px;
-    max-height: 334px; }
+    max-height: 334px;
+    margin: 10px 0; }
 
 @media only screen and (max-width: 990px) {
   .expertise__card {
@@ -988,19 +979,21 @@ h1 {
     max-width: 420px;
     margin: 0 0 50px; }
   .work__process-name {
-    font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: bold;
     font-size: 13px;
     line-height: 19px;
-    color: #C0CDD7; }
+    color: #C0CDD7;
+    margin: 0 0 12px; }
   .work__process-tittle {
-    font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 130%;
-    color: #253757; }
+    color: #253757;
+    margin: 0 0 20px; }
   .work__process-text {
-    font-family: "Open Sans", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: normal;
     font-size: 14px;
     line-height: 150%;
@@ -1045,7 +1038,7 @@ h1 {
     -webkit-transform: scale(1.03);
             transform: scale(1.03); }
   .card__tittle {
-    font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: 600;
     font-size: 13px;
     line-height: 19px;
@@ -1070,7 +1063,7 @@ h1 {
       color: #fcc91d;
       background-color: rgba(252, 201, 29, 0.1); }
   .card__text {
-    font-family: "Open Sans", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: 600;
     font-size: 13px;
     line-height: 150%;
@@ -1108,7 +1101,7 @@ h1 {
     .card__circle--yellow {
       background-color: #fcc91d; }
   .card__c-text {
-    font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
@@ -1128,7 +1121,7 @@ h1 {
   border-radius: 200px 200px 200px 200px;
   background: #ff9c8e;
   position: relative;
-  top: -260px;
+  top: -160px;
   overflow: hidden; }
   .approach__content {
     position: relative;
@@ -1136,7 +1129,7 @@ h1 {
     max-width: 450px;
     margin: 200px; }
   .approach__content-name {
-    font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: bold;
     font-size: 13px;
     line-height: 19px;
@@ -1146,7 +1139,7 @@ h1 {
     position: relative;
     top: -50px; }
   .approach__content-tittle {
-    font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 150%;
@@ -1198,7 +1191,7 @@ h1 {
     .app-card__img--document {
       background-image: url(../images/features/features-item-icon-3.svg); }
   .app-card__text {
-    font-family: "Open Sans", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: normal;
     font-size: 15px;
     line-height: 150%;
@@ -1273,7 +1266,7 @@ h1 {
     margin: 0 0 0 10%;
     height: 100px; }
   .rate__name {
-    font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: bold;
     font-size: 13px;
     line-height: 19px;
@@ -1282,7 +1275,7 @@ h1 {
     text-transform: uppercase;
     margin: 0; }
   .rate__tittle {
-    font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 150%;
@@ -1391,7 +1384,7 @@ h1 {
     .rate-card__quotes--yellow {
       color: #fcc304; }
   .rate-card__msg {
-    font-family: "Open Sans", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: 600;
     font-size: 13px;
     line-height: 150%;
@@ -1399,7 +1392,7 @@ h1 {
     text-align: center;
     margin: 0 0 15px; }
   .rate-card__u-name {
-    font-family: "Open Sans", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: 600;
     font-size: 13px;
     line-height: 150%;
@@ -1407,7 +1400,7 @@ h1 {
     text-align: center;
     margin: 0 0 5px; }
   .rate-card__post {
-    font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: bold;
     font-size: 13px;
     line-height: 19px;
@@ -1605,14 +1598,14 @@ h1 {
         -ms-flex-direction: column;
             flex-direction: column; }
   .hoop__tittle {
-    font-family: "Poppins", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: 600;
     font-size: 52px;
     line-height: 150%;
     color: #253757;
     text-align: center; }
   .hoop__tell {
-    font-family: "Open Sans", "Poppins", "Roboto", "Open Sans", Arial, sans-serif;
+    font-family: "Open Sans", "Poppins", "Open Sans", Arial, sans-serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 150%;
