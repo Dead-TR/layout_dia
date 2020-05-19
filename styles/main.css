@@ -394,6 +394,8 @@ h1 {
       left: auto;
       right: 20px;
       bottom: 0; }
+    .slide__intro {
+      display: none; }
   #slide_swch0:checked ~ .slide__buttons :nth-child(4),
   #slide_swch0:checked ~ .slide__buttons :nth-child(0) {
     top: -80px;
@@ -832,6 +834,15 @@ h1 {
   #fm3:checked ~ .footer__phone-navigation {
     left: 20px; } }
 
+.tittle {
+  font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 150%;
+  color: #253757;
+  text-align: center;
+  padding-top: 128px; }
+
 .button {
   font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
   font-weight: 600;
@@ -853,19 +864,9 @@ h1 {
     -webkit-transform: scale(1.05);
             transform: scale(1.05); }
 
-.tittle {
-  font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
-  font-weight: 600;
-  font-size: 52px;
-  line-height: 150%;
-  color: #253757;
-  text-align: center;
-  padding-top: 128px; }
-
 @media only screen and (max-width: 300px) {
-  button {
-    width: 60%;
-    z-index: 9; } }
+  .button {
+    width: 60%; } }
 
 .about__content {
   margin: 100px auto 50px;
