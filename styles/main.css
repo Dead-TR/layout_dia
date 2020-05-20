@@ -372,7 +372,6 @@ h1 {
   background-size: 9px;
   background-position: center; }
 
-/*------slide-switches-------*/
 #slide-navigation:checked ~ .header__poster {
   left: -500px; }
 
@@ -382,7 +381,6 @@ h1 {
 #slide-navigation:checked ~ .slide-menu {
   background-image: url(../images/slider/menuX.svg); }
 
-/*------------------media----------------------------*/
 @media only screen and (max-width: 990px) {
   .slide-menu {
     visibility: visible; }
@@ -612,6 +610,83 @@ h1 {
   .thread__img {
     margin: 5px 40%; } }
 
+.header {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0 auto;
+  padding: 50px 0;
+  height: 800px;
+  max-width: 1920px; }
+  .header__navigation {
+    position: relative;
+    margin: 0 auto;
+    width: calc(100% - 250px);
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    .header__navigation::before {
+      content: "";
+      background: url(../images/logo/dia-logo.svg);
+      background-repeat: no-repeat;
+      background-size: 100%;
+      position: absolute;
+      width: 45px;
+      height: 26px; }
+  .header__poster {
+    position: absolute;
+    width: 490px;
+    height: 355px;
+    margin: 168px 75px;
+    -webkit-transition: 1s left;
+    transition: 1s left; }
+  .header__poster-tittle {
+    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 68px;
+    color: white;
+    margin: 0 0 30px; }
+  .header__poster-text {
+    font-family: "Open Sans", "Poppins", "Open Sans", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: white;
+    margin: 0 0 90px; }
+
+@media only screen and (max-width: 990px) {
+  .header {
+    height: 800px;
+    overflow: hidden; }
+    .header__navigation {
+      margin: 10px;
+      width: calc(100% - (10px * 2));
+      top: -50px;
+      overflow-x: hidden; }
+    .header__poster {
+      width: 60%;
+      height: 300px;
+      margin: 0 0 0 20px;
+      z-index: 3;
+      left: 0;
+      top: 400px; }
+    .header__poster-tittle {
+      font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
+      font-weight: 600;
+      font-size: 35px;
+      line-height: 100%;
+      color: white; }
+    .header__poster-text {
+      font-family: "Open Sans", "Poppins", "Open Sans", Arial, sans-serif;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 150%;
+      color: white; } }
+
 .footer {
   position: relative;
   display: -webkit-box;
@@ -690,85 +765,6 @@ h1 {
     display: block;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%); } }
-
-.header {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 0 auto;
-  padding: 50px 0;
-  height: 800px;
-  max-width: 1920px; }
-  .header__navigation {
-    position: relative;
-    margin: 0 auto;
-    width: calc(100% - 250px);
-    height: 50px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-    .header__navigation::before {
-      content: "";
-      background: url(../images/logo/dia-logo.svg);
-      background-repeat: no-repeat;
-      background-size: 100%;
-      position: absolute;
-      width: 45px;
-      height: 26px; }
-  .header__poster {
-    position: absolute;
-    width: 490px;
-    height: 355px;
-    margin: 168px 75px;
-    -webkit-transition: 1s left;
-    transition: 1s left; }
-  .header__poster-tittle {
-    font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
-    font-weight: 600;
-    font-size: 64px;
-    line-height: 68px;
-    color: white;
-    margin: 0 0 30px; }
-  .header__poster-text {
-    font-family: "Open Sans", "Poppins", "Open Sans", Arial, sans-serif;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 150%;
-    color: white;
-    margin: 0 0 90px; }
-
-@media only screen and (max-width: 990px) {
-  .header {
-    height: 800px;
-    overflow: hidden; }
-    .header__navigation {
-      margin: 10px;
-      width: calc(100% - (10px * 2));
-      top: -50px;
-      overflow-x: hidden; }
-      .header__navigation :last-child {
-        margin: 0; }
-    .header__poster {
-      width: 60%;
-      height: 300px;
-      margin: 0 0 0 20px;
-      z-index: 3;
-      left: 0;
-      top: 400px; }
-    .header__poster-tittle {
-      font-family: "Poppins", "Poppins", "Open Sans", Arial, sans-serif;
-      font-weight: 600;
-      font-size: 35px;
-      line-height: 100%;
-      color: white; }
-    .header__poster-text {
-      font-family: "Open Sans", "Poppins", "Open Sans", Arial, sans-serif;
-      font-weight: normal;
-      font-size: 15px;
-      line-height: 150%;
-      color: white; } }
 
 @media only screen and (max-width: 990px) {
   .footer__arrow {
@@ -1014,7 +1010,8 @@ h1 {
     .work__process {
       -ms-flex-item-align: center;
           align-self: center;
-      text-align: center; }
+      text-align: center;
+      padding: 10px; }
     .work__sticker {
       display: grid;
       grid-template-columns: 1fr;
