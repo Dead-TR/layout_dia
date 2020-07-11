@@ -143,6 +143,21 @@ ul {
   padding: 0;
   list-style-type: none; }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid transparent;
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 -1px 0 0 white inset;
+  -webkit-transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 5000s ease-in-out 0s; }
+
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 400; }
@@ -667,14 +682,10 @@ h1 {
     background: #ff9c8e;
     border-radius: 64px;
     border-style: none;
-    -webkit-transition: 1s background, 1s -webkit-transform;
-    transition: 1s background, 1s -webkit-transform;
-    transition: 1s background, 1s transform;
-    transition: 1s background, 1s transform, 1s -webkit-transform; }
+    -webkit-transition: 1s background;
+    transition: 1s background; }
     .header__poster-button:hover {
-      background: #ff8e9d;
-      -webkit-transform: scale(1.2);
-              transform: scale(1.2); }
+      background: #ff8e9d; }
 
 @media only screen and (max-width: 990px) {
   .header {
@@ -884,7 +895,7 @@ h1 {
 
 @media only screen and (max-width: 300px) {
   .button {
-    width: 60%; } }
+    width: 100px; } }
 
 .about__content {
   margin: 100px auto 50px;
@@ -1311,7 +1322,7 @@ h1 {
     margin: 40px 0; }
   .rate__card {
     margin: 20px;
-    width: 315px;
+    max-width: 315px;
     border-radius: 25px;
     -webkit-box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5);
             box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5);
